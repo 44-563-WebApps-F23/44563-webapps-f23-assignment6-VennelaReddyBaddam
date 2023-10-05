@@ -7,9 +7,10 @@
     </head>
  
 <body>
-    <h1>Author entry Vennela Reddy Baddam</h1>
+    <h1 style=" background-color: lightgreen; color: blue; text-align: center;">Author entry Vennela Reddy Baddam</h1>
 
-<h2>Getting input</h2>
+<h2 >Getting input</h2>
+<div style="background-color: lightseagreen;"
 
 <form>
     <label for="form1_age">The hidden author name </label>
@@ -33,6 +34,13 @@ function checkAuthor (){
     guess = document.getElementById("form1_nick").value
    
     out = document.getElementById("result")
+    if(oops>=7){
+
+    alert("Sorry ran out of guesses")
+    }
+    
+    
+     
     if(hidden==guess){
         good++
         out.innerHTML = "Good- "+good+", "+"Oops-"+oops;
@@ -52,7 +60,7 @@ function checkAuthor (){
 <form>
 
 <div class="container">
-    <img id="image"src="file:///C:/Users/S566656/Pictures/Amsterdam.jpg" height="100" width="100" onclick="selectImage()" >
+    <img id="image"src="Bangalore.jpg" height="100" width="100" onclick="selectmage()" >
    
 </div>
 
@@ -64,15 +72,15 @@ function checkAuthor (){
     function selectImage(){
         switch(useImage){
             case 1:
-              image.src="file:///C:/Users/S566656/Pictures/Amsterdam.jpg";
+              imageELement.src="Bangalore.jpg";
                 useImage=2;
                 break;
               case 2:
-              image.src="file:///C:/Users/S566656/Pictures/Bangalore.jpg";
+              imageELement.src="Amsterdam.jpg";
                 useImage=3;
                 break;
                 case 3:
-                image.src="file:///C:/Users/S566656/Pictures/barecelona.jpg";
+                imageELement.src="Dallas.jpg";
                     useImage=1;
                     break;
 
