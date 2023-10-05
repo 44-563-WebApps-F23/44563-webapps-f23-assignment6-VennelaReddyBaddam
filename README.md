@@ -2,4 +2,6 @@
 # WebApps-F23-Assignment-6
 Introduction to Java Script and DOM
 
-Hosted at(https://github.com/44-563-WebApps-F23/44563-webapps-f23-assignment6-VennelaReddyBaddam/settings/pages)(file:///C:/Users/S566656/Documents/web%20apps/my2-Baddam/44563-webapps-f23-assignment6-VennelaReddyBaddam/author.html)(file:///C:/Users/S566656/Documents/web%20apps/my2-Baddam/44563-webapps-f23-assignment6-VennelaReddyBaddam/tips.html)(file:///C:/Users/S566656/Documents/web%20apps/my2-Baddam/44563-webapps-f23-assignment6-VennelaReddyBaddam/Cruise.html)
+* [Hosted at author](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-VennelaReddyBaddam/author.html)
+* [Hosted at tips](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-VennelaReddyBaddam/tips.html)
+* [Hosted at cruise](https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment6-VennelaReddyBaddam/Cruise.html)
